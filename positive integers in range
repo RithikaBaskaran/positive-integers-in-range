@@ -1,0 +1,12 @@
+n=int(input("enter the number of elements:"))
+list1=[]
+
+print("enter numbers")
+for j in range (0,n):
+    print("enter number",j+1,":")
+    list1.append(int(input()))
+list2=[]
+for i in list1:
+    if i>0:
+        list2.append(i)
+print(list2)        
